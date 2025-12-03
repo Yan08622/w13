@@ -1,0 +1,51 @@
+# 定義走 n 步
+def move_n(n):
+    for _ in range(n):
+        move()
+
+# 路線開始 (起點朝東)
+# 1. 東 → 北
+turn_left()
+move_n(1)
+
+# 2. 北 → 東（改為左轉 270° = 三次左轉）
+turn_left()
+turn_left()
+turn_left()
+move_n(2)
+
+# 3. 東 → 南（改為左轉 270°）
+turn_left()
+turn_left()
+turn_left()
+move_n(1)
+
+# 4. 南 → 東
+turn_left()
+move_n(4)
+
+# 5. 東 → 北
+turn_left()
+move_n(4)
+
+# 6. 北 → 西
+turn_left()
+move_n(5)
+
+# 7. 西 → 北（改為左轉 270°）
+turn_left()
+turn_left()
+turn_left()
+move_n(5)
+
+# 8. 北 → 西
+turn_left()
+move_n(4)
+
+# 9. 西 → 南
+turn_left()
+move_n(9)
+
+# 10. 南 → 東
+turn_left()
+move_n(3)
