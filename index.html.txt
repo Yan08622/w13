@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Yan08622 的機械設計課程成果</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; padding: 30px; max-width: 900px; margin: auto; background-color: #f4f7f6; }
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; }
+        .link-box { margin-top: 20px; padding: 10px; border-left: 5px solid #3498db; background: #eef7fd; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>課程學習成果展示</h1>
+        <p>這是我的機械設計課程作業彙整頁面。</p>
+        
+        <div class="link-box">
+            <h3>作業連結：</h3>
+            <ul>
+                <li><a href="https://github.com/Yan08622/w2">第二週作業倉儲 (w2)</a></li>
+                <li><a href="https://github.com/Yan08622/w13">第十三週作業倉儲 (w13)</a></li>
+            </ul>
+        </div>
+
+        <h3>學習心得摘要：</h3>
+        <p>透過本學期的課程，我掌握了 Git 版本控制的基本操作。我學會了如何使用 AI 協助進行 Python 程式修改，並將憤怒鳥遊戲中的角色邏輯進行優化，確保三隻小豬的座標不重疊，這對我的邏輯思考有很大幫助。</p>
+    </div>
+</body>
+</html>
